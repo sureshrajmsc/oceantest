@@ -1,0 +1,29 @@
+General Instructions
+
+* You are required to use React framework for the test assigned. 
+* You are permitted to use Redux for the state management 
+* The code must be ES6 compatible 
+* Please send the code in ZIP format excluding node module files. 
+* Please complete the mobile version first in case of any time shortage
+* For data, you can use an external JSON file.
+* Use proper component design and code should be in modular
+
+
+Test Instructions
+This is a booking management module based on Services. On the top section(in Curosal) you can see the services and after that booking details of each service. When user slide services will change booking the sections accordingly. Each service will have multiple bookings.
+
+* Booking section will show the first five records and will have the "View More" link to show further.
+* Show "No more booking" when listing complete.
+* Progress should be progress based status(PENDING, ACTIVE, and PAYMENT)
+
+Page/Tab 1(Request)
+Initially, all booing status will be PENDING and only Active bookings will be listed here
+When the user click "Accept request" the booking status should be "ACTIVE" and a particular booking should go to the "Services" tab
+
+
+Page/Tab 2(Services)
+Here will list all ACTIVE bookings and when clicking on "Generate Invoice", the status will change to PAYMENT and booking will move to the Payment tab
+
+
+Page/Tab 3(Payment)
+List all PAYMENT status booking here.
